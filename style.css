@@ -7,13 +7,54 @@ header {
   font: mundial;
 }
 
-ul {
+ul.header {
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 60px;
+  align-items: center;
 }
 
-ul h1 {
-  justify-content: left;
+ul.header > h7.snup {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  color: #f8991D;
+  text-align: center;
+
+}
+
+ul.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 500px 50px;
+  /*flex-direction: column;*/
+  /*align-items: flex-end;*/
+  font-size: 1.5em;
+  background-color: #f8991D;
+  color: white;
+  background-image: url(Group\ 14.png);
+  padding: 30px;
+}
+
+ul.banner > p.p1{
+  grid-column-start: 4; grid-column-end: 7;
+  grid-row: 1;
+}
+
+ul.banner > p.b1{
+  background-color: white;
+  color: #f8991D;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.7em;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-column-start: 4;
+  grid-row-start: 2;
 }
