@@ -20,15 +20,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header style="font-family: mundial">
+    <header>
       <ul class="header">
-        <h1 class="logo" style="font-family: mundial light">Fitzone</h1>
-        <h7 class="nav1">HOME</h7>
-        <h7 class="nav2">ABOUT US</h7>
-        <h7 class="nav3">MEMBERSHIP</h7>
-        <h7 class="nav4">LOCATIONS</h7>
-        <h7 class="signup">SIGN UP</h7>
-        <h7 class="login">LOGIN</h7>
+        <h1 class="logo">Fitzone</h1>
+        <h2 class="nav1">HOME</h2>
+        <h2 class="nav2">ABOUT US</h2>
+        <h2 class="nav3">MEMBERSHIP</h2>
+        <h2 class="nav4">LOCATIONS</h2>
+        <h2 class="signup">SIGN UP</h2>
+        <h2 class="login">LOGIN</h2>
       </ul>
     </header>
     <main>
@@ -42,10 +42,16 @@
           Browse our membership options and begin your journey to be <br>
           the best you.
         </p>
-        <p class="b1">BECOME A MEMBER</p>
+        <button type="submit" class="b1">BECOME A MEMBER</button>
+        <form class="info">
+          <label for="name">Name:</label>
+          <input type="text" id="fullname" name="fullname" autocomplete="name" />
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" autocomplete="email" />
+        </form>
       </div>
       <div class="sec1">
-        <h3 class="title1">TRAINING PROGRAMS</h3>
+        <h2 class="title1">TRAINING PROGRAMS</h2>
         <p class="p2">
           Our expert trainers are here to provide<br> you with specialized programs suited<br> to your needs.
         </p>
@@ -54,7 +60,7 @@
       </div>
 
       <div class="sec2">
-        <h3 class="title2">LOCATIONS</h3>
+        <h2 class="title2">LOCATIONS</h2>
         <p class="p3">
           Our state-of-the-art facilities have<br>everything you need to push yourself<br>to the next level.
         </p>
@@ -63,7 +69,7 @@
       </div>
 
       <div class="sec3">
-        <h3 class="title3">JOIN THE TEAM</h3>
+        <h2 class="title3">JOIN THE TEAM</h2>
         <p class="p4">
           Join the team and help our members<br>become their best selves.
         </p>
