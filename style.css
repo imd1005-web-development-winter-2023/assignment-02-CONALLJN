@@ -1,3 +1,251 @@
 /*
   CSS File
 */
+header {
+  background-color: #f8991D;
+  color: white;
+}
+
+ul.header {
+  display: grid;
+  grid-template-columns: repeat(28, 1fr);
+  grid-template-rows: repeat(3, 30px);
+  font-family: 'Mundial', Verdana, 'Segoe UI';
+  font-weight: 600;
+}
+
+ul.header > h2.signup {
+  grid-column-start: 24; grid-column-end: 26;
+  grid-row-start: 2;
+  padding-top: 1px;
+  background-color: white;
+  color: #f8991D;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+ul.header > h2.login {
+  grid-column-start: 26; grid-column-end: 27;
+  grid-row-start: 2;
+  padding-top: 1px;
+  text-align: center;
+  padding-left: 25px;
+  font-size: 1.2em;
+}
+
+ul.header > h2.nav1 {
+  grid-column-start: 11; grid-column-end: 11;
+  grid-row-start: 2;
+  padding-top: 5px;
+  font-size: 1.2em;
+}
+
+ul.header > h2.nav2 {
+  grid-column-start: 13; grid-column-end: 15;
+  grid-row-start: 2;
+  padding-top: 5px;
+  font-size: 1.2em;
+}
+
+ul.header > h2.nav3 {
+  grid-column-start: 15; grid-column-end: 15;
+  grid-row-start: 2;
+  padding-top: 5px;
+  padding-left: 50px;
+  font-size: 1.2em;
+}
+
+ul.header > h2.nav4 {
+  grid-column-start: 17; grid-column-end: 17;
+  grid-row-start: 2;
+  padding-top: 5px;
+  font-size: 1.2em;
+}
+
+ul.header > h1.logo {
+  grid-column-start: 2; grid-column-end: 6;
+  grid-row-start: 1; grid-row-end: 4;
+  align-self: center;
+}
+
+div.banner {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(13, 50px);
+  font-size: 1.5em;
+  background-color: #f8991D;
+  color: white;
+  background-image: url(Group\ 14.png);
+  padding: 30px;
+  font-family: 'Mundial', Verdana, 'Segoe UI';
+}
+
+div.banner > p.p1{
+  grid-column-start: 5; grid-column-end: 9;
+  grid-row-start: 2;
+}
+
+div.banner > button.b1{
+  background-color: white;
+  color: #f8991D;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.7em;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-column-start: 5;
+  grid-row-start: 11;
+}
+
+div.banner > form.info {
+  grid-column-start: 4; grid-column-end: 9;
+  grid-row-start: 9;
+  padding-left: 125px;
+}
+
+div.sec1 {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(15, 61.37px);
+  font-family: 'Mundial', Verdana, 'Segoe UI';
+}
+
+div.sec1 > h2.title1 {
+  grid-column-start: 4; grid-column-end: 20;
+  grid-row-start: 5; grid-row-end: 5;
+  font-size: 3em;
+}
+
+div.sec1 > p.p2 {
+  grid-column-start: 4; grid-column-end: 20;
+  grid-row-start: 7; grid-row-end: 15;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+div.sec1 > p.b2 {
+  grid-column-start: 4; grid-column-end: 6;
+  grid-row-start: 10;
+  background-color: #f8991D;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  font-size: 1.1em;
+}
+
+div.sec1 > img.i1 {
+  grid-column-start: 12; grid-column-end: 21;
+  grid-row-start: 4; grid-row-end: 16;
+}
+
+div.sec2 {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(15, 61.37px);
+  font-family: 'Mundial', Verdana, 'Segoe UI';
+}
+
+div.sec2 > h2.title2 {
+  grid-column-start: 14; grid-column-end: 20;
+  grid-row-start: 5; grid-row-end: 5;
+  font-size: 3em;
+}
+
+div.sec2 > p.p3 {
+  grid-column-start: 14; grid-column-end: 20;
+  grid-row-start: 7; grid-row-end: 15;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+div.sec2 > p.b3 {
+  grid-column-start: 14; grid-column-end: 16;
+  grid-row-start: 10;
+  background-color: #f8991D;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  font-size: 1.1em;
+}
+
+div.sec2 > img.i2 {
+  grid-column-start: 2; grid-column-end: 11;
+  grid-row-start: 4; grid-row-end: 16;
+}
+
+div.sec3 {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(15, 61.37px);
+  font-family: 'Mundial', Verdana, 'Segoe UI';
+}
+
+div.sec3 > h2.title3 {
+  grid-column-start: 4; grid-column-end: 20;
+  grid-row-start: 5; grid-row-end: 5;
+  font-size: 3em;
+}
+
+div.sec3 > p.p4 {
+  grid-column-start: 4; grid-column-end: 20;
+  grid-row-start: 7; grid-row-end: 15;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+div.sec3 > p.b4 {
+  grid-column-start: 4; grid-column-end: 6;
+  grid-row-start: 10;
+  background-color: #f8991D;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  font-size: 1.1em;
+}
+
+div.sec3 > img.i3 {
+  grid-column-start: 12; grid-column-end: 21;
+  grid-row-start: 4; grid-row-end: 16;
+}
+
+div.footer {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: 80% 50px;
+  background-color: #f8991D;
+  color: white;
+  font-family: 'Mundial', Verdana, 'Segoe UI';
+  text-align: center;
+  padding-top: 10px;
+}
+
+div.footer > p.fl1 {
+  grid-column-start: 6;
+  grid-row-start: 1;
+}
+
+div.footer > p.fl2 {
+  grid-column-start: 8;
+  grid-row-start: 1;
+}
+
+div.footer > p.fl3 {
+  grid-column-start: 10;
+  grid-row-start: 1;
+}
+
+div.footer > img.i4 {
+  display: flex;
+  align-self: center;
+  grid-column-start: 12; grid-column-end: 14;
+  grid-row-start: 1;
+  padding-bottom: 10px;
+}
+
+div.footer > p.Cr{
+  grid-column-start: 1; grid-column-end: 19;
+  grid-row-start: 2;
+  background-color: #f8991D;
+}
